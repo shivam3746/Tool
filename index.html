@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"></link>
+    <title>Document</title>
+</head>
+<body>
+    <!--Topnav-->
+    <div class="topnav" id="myTopnav">
+        <a href="#home" id="logo">Logo</a>
+        <a href="#" id="headline">EY Consolidation Tool</a>
+        <div class="search-container">
+            <form action="#">
+                <input type="text" placeholder="Search.." name="search">
+            </form>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="">
+        <i class="fa fa-bars"></i>
+        </a>
+        <div class="utilities">
+            <a href="#settings"><i class="fa fa-cog"></i></a>
+            <a href="#help"><i class="fa fa-question-circle"></i></a>
+            <a href="#user"><i class="fa fa-user"></i>Test user</a>
+        </div>
+    </div>
+
+    <!--Sidenav-->
+    <div class="sidebar">
+        <!--Dropdown for Metadata-->
+        <div class="dropdown-one"> 
+            <button id="btn-metadata"><i class="fa fa-database"></i>Metadata</button>
+                <div id="my-dropdown-one" class="dropdown-content-one">
+                    <a href="#entity">Entity</a>
+                    <a href="#account">Account</a>
+                    <a href="#period">Period</a>
+                    <a href="year">Year</a>
+                    <a href="#view">View</a>
+                    <a href="#value">Vaue</a>
+                    <a href="#custom1">Custom 1</a>
+                    <a href="#custom2">Custom 2</a>
+                    <a href="#custom3">Custom 3</a>
+                    <a href="#custom4">Custom 4</a>
+                    <a href="#scenario">Scenario</a>
+                </div> 
+        </div>
+        
+        <!--Dropdown for FX-->
+        <div class="dropdown-two">
+            <button id="btn-fx"><i class="fa fa-exchange"></i>FX</button>
+                <div id="my-dropdown-two" class="dropdown-content-two">
+                    <a href="#currency">Currency</a>
+                    <a href="#data">Data</a>
+                </div>
+        </div>
+
+
+        <button id="btn-ownership"><i class="fa fa-user-circle-o"></i>Ownership</button>
+        
+        <!--Dropdown for Data-->
+        <div class="dropdown-three">
+            <button id="btn-data"><i class="fa fa-asterisk"></i>Data</button>
+                <div id = "my-dropdown-three" class="dropdown-content-three">
+                    <a href="#selectPOV">Select POV</a>
+                </div>
+        </div>
+    </div>
+
+    <!--Button Toolbar-->
+    <div class="btn-toolbar">
+        <button class="btn-toolbar-content" id="upload-btn">Upload</button>
+        <button class="btn-toolbar-content" id="download-btn">Download</button>
+        <button class="btn-toolbar-content" id="custom-btn-one">Demo</button>
+        <button class="btn-toolbar-content" id="custom-btn-two">Demo</button>
+        <button class="btn-toolbar-content" id="custom-btn-three">Demo</button>
+    </div>
+
+<script src="https://kit.fontawesome.com/c1b14e96cc.js" crossorigin="anonymous"></script>
+</body>
+</html>
